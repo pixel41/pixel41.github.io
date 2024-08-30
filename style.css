@@ -60,13 +60,18 @@ main {
         font-weight: 700;
         box-shadow: -3px 5px 3px #000b;
         transition: all 700ms;
-        img {
-          height: 30px;
-        }
       }
-      li:hover {
-        transform: scale(1.04);
+      img {
+        height: 30px;
       }
     }
+    li:hover {
+      transform: scale(1.04);
+    }
   }
+}
+
+header {
+  opacity: 0;
+  transition: all 10s;
 }
