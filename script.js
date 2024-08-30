@@ -9,7 +9,8 @@ VANTA.BIRDS({
   scaleMobile: 1.0,
   color2: 0xff00f0,
   backgroundAlpha: 0.0,
-  quantity: 1.4,
-  wingSpan: 40,
-  sparation: 100,
+  quantity: 2,
+  alignment: 80.0,
+  wingSpan: 40.0,
+  sparation: 100.0,
 });
