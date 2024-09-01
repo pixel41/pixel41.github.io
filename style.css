@@ -71,3 +71,8 @@ main {
     }
   }
 }
+header,
+.buttons {
+  opacity: 0;
+  transition: opacity 1500ms ease-in-out;
+}

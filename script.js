@@ -14,3 +14,8 @@ VANTA.BIRDS({
   wingSpan: 40.0,
   sparation: 100.0,
 });
+
+setTimeout(function () {
+  document.querySelector("header").style.opacity = "100";
+  document.querySelector(".buttons").style.opacity = "100";
+}, 100);
