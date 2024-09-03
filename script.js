@@ -15,7 +15,7 @@ VANTA.BIRDS({
   sparation: 100.0,
 });
 
-setTimeout(function () {
+setTimeout(() =>{
   document.querySelector("header").style.opacity = "100";
   document.querySelector(".buttons").style.opacity = "100";
 }, 100);
